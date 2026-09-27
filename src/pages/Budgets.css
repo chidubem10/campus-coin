@@ -1,0 +1,36 @@
+.budget-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.budget-card {
+  max-width: 520px;
+}
+
+.budget-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.budget-card__name {
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.budget-alert {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.budget-alert--over {
+  color: var(--red);
+}

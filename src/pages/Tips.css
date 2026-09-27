@@ -1,0 +1,49 @@
+.tips-section-heading {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+  margin: 18px 0 10px;
+}
+
+.tips-section-heading:first-child {
+  margin-top: 0;
+}
+
+.tip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.tip-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tip-row__icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tip-row__text {
+  flex: 1;
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.tip-row__actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}

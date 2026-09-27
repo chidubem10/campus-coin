@@ -1,0 +1,16 @@
+.tx-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 22px 0 16px;
+}
+
+.tx-category-filter {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  font-size: 0.84rem;
+  color: var(--text);
+}
